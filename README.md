@@ -5,7 +5,7 @@ Este é o repositório do meu portfólio como desenvolvedor front-end, onde apre
 
 ## 📸
 
-<div align="center>
+<div align="center">
   <img width="1023" height="641" alt="Image" src="https://github.com/user-attachments/assets/5fc97e14-3bc3-40d5-a2df-0f9b445e2d35" />
 </div>
 
