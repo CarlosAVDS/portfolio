@@ -4,8 +4,9 @@
 Este é o repositório do meu portfólio como desenvolvedor front-end, onde apresento meus principais projetos, experiências, tecnologias e formas de contato. A proposta é reunir em um único lugar minha identidade visual, meus trabalhos com React, HTML, CSS, JavaScript e boas práticas de desenvolvimento web moderno.
 
 ## 📸
+
 <div align="center>
-<img width="1023" height="641" alt="Image" src="https://github.com/user-attachments/assets/5fc97e14-3bc3-40d5-a2df-0f9b445e2d35" />
+  <img width="1023" height="641" alt="Image" src="https://github.com/user-attachments/assets/5fc97e14-3bc3-40d5-a2df-0f9b445e2d35" />
 </div>
 
 ## 🔗 Acesse o Portfólio
