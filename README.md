@@ -11,7 +11,7 @@ Este é o repositório do meu portfólio como desenvolvedor front-end, onde apre
 
 ## 🔗 Acesse o Portfólio
 
-[👉 Ver site ao vivo](https://carlosavds.github.io/portfolio/) *(caso esteja hospedado no GitHub Pages ou outro serviço)*
+<a href="https://carlosavds.github.io/portfolio/" target="_blank">[Ver site ao vivo]</a>
 
 ## ✨ Funcionalidades
 
