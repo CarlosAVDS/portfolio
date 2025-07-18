@@ -1,5 +1,5 @@
 
-# 🧑‍💻 Portfólio Pessoal - Carlos Alberto
+# 🧑‍💻 Portfólio Pessoal - Carlos
 
 Este é o repositório do meu portfólio como desenvolvedor front-end, onde apresento meus principais projetos, experiências, tecnologias e formas de contato. A proposta é reunir em um único lugar minha identidade visual, meus trabalhos com React, HTML, CSS, JavaScript e boas práticas de desenvolvimento web moderno.
 
