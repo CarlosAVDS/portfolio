@@ -180,13 +180,6 @@ function toggleMenu(event) {
 
 
 //EVENTOS
-logo.addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-})
-
 darkSwitch.addEventListener('click', () => {
     darkHandler();
 })
@@ -212,6 +205,13 @@ scrollToTopBtn.addEventListener("click", function () {
         behavior: "smooth"
     });
 });
+
+logo.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+})
 
 window.addEventListener("scroll", function () {
     if (window.scrollY > 200) {
