@@ -742,17 +742,14 @@ dialog i {
     }
 
     .column {
-        width: 45%;
-        margin-bottom: 20px;
+        width: 80%;
+        margin-top: 20px;
+
     }
 
 }
 
 @media screen and (max-width: 960px) {
-    .column {
-        width: 80%;
-        margin-bottom: 20px;
-    }
 
     .card-box {
         height: 100%;
@@ -768,7 +765,7 @@ dialog i {
     header {
         height: 950px;
     }
-    
+
     #nav {
         padding: 0;
         position: fixed;
