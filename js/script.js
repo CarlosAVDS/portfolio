@@ -9,6 +9,7 @@ const projetos = [{
 
 //ELEMENTOS
 const darkSwitch = document.querySelector('#checkbox')
+const logo = document.getElementById('logo')
 //Modal switch
 const modal = document.querySelector('#modal')
 const closeModal = document.querySelector('#close-modal')
@@ -149,12 +150,21 @@ function modalHandler(modal) {
 
 
 function toggleMenu(event) {
-    if (event.type === 'touchstart') event.preventDefault();
-    nav.classList.toggle('active');
+    if (event.type === 'touchstart') {
+        event.preventDefault();
+        nav.classList.toggle('active');
+    }
 }
 
 
 //EVENTOS
+logo.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+})
+
 darkSwitch.addEventListener('click', () => {
     darkHandler();
 })

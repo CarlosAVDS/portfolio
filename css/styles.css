@@ -52,6 +52,7 @@ i {
     width: 80px;
     margin-left: 15px;
     padding: .5rem;
+    cursor: pointer;
 }
 
 #nav-menu {
@@ -767,9 +768,22 @@ dialog i {
     header {
         height: 950px;
     }
+    
+    #nav {
+        padding: 0;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+
+    #logo {
+        margin: 0;
+        padding: 0;
+    }
 
     #title {
         font-size: 2.8rem;
+        padding-top: 90px;
     }
 
 
@@ -781,6 +795,14 @@ dialog i {
         font-size: 1.5rem;
         text-align: left;
         line-height: 50px;
+    }
+
+    #main-text,
+    #resume {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .container,
@@ -807,6 +829,42 @@ dialog i {
 
     #contact {
         width: 95%;
+    }
+
+    #contact-img {
+        height: 80%;
+        width: 80%;
+    }
+
+    #contact-desc {
+        font-size: 15px;
+    }
+
+    .card-box,
+    .column {
+        padding: 0;
+    }
+
+    #proj-title,
+    #proj-desc {
+        font-size: 18px;
+    }
+
+    #control-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 15px;
+    }
+
+    .img-modal img {
+        height: 100%;
+    }
+
+    #video {
+        width: 100%;
     }
 
     /* menu mobile */
@@ -842,6 +900,7 @@ dialog i {
     #nav-itens a {
         display: block;
     }
+
     #menu-button {
         margin: 0 auto;
         display: flex;
@@ -885,33 +944,4 @@ dialog i {
         top: -7px;
     }
 
-}
-
-@media screen and (max-width: 350px) {
-    #main-text {
-        padding: 0;
-    }
-
-    #resume {
-        margin: 0;
-        text-align: center;
-    }
-
-    .card-box,
-    .column {
-        padding: 0;
-    }
-
-    .img-modal img {
-        height: 100%;
-    }
-
-    #contact-img {
-        height: 80%;
-        width: 80%;
-    }
-
-    #contact-desc {
-        font-size: 15px;
-    }
 }
