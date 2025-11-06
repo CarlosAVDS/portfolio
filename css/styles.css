@@ -112,6 +112,7 @@ i {
     background-color: var(--background);
     transition: .5s;
     border-radius: 30px;
+    border: 2px solid #fff;
 }
 
 .slider:before {
